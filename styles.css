@@ -1,0 +1,61 @@
+/* Element Selector: Style all headings */
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Class Selector: Style sections with a background color */
+.section {
+    background-color: lightyellow;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* ID Selector: Add a border to the element with a unique ID */
+#unique-paragraph {
+    border: 2px solid darkgreen;
+    padding: 5px;
+    width: fit-content;
+}
+
+/* part 2, change background color  of the webpage */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* PART 3, Card Component */
+
+/* Card Container */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Title */
+.card-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Card Description */
+.card-description {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #555;
+}
